@@ -1,0 +1,13 @@
+;Method;Accuracy;Macro F1;MLPClassifier__activation;MLPClassifier__hidden_layer_sizes;SVC__kernel;RandomForestClassifier__criterion;RandomForestClassifier__n_estimators
+0;PowerTransformer>LogisticRegression;0.7062832233251716;0.7119787295983446;;;;;
+1;PowerTransformer>MLPClassifier;0.7542221380139904;0.8039366355429941;relu;(64,);;;
+2;PowerTransformer>SVC;0.6361009372243234;0.5644699183475659;;;rbf;;
+3;PowerTransformer>RandomForestClassifier;0.7564142441232593;0.7531807382076736;;;;entropy;100.0
+4;PowerTransformer>GaussianNB;0.7032766851831576;0.706935680296052;;;;;
+5;PowerTransformer>StackingClassifier;0.8422784862649417;0.9905283478626713;;;;;
+6;StandardScaler>LogisticRegression;0.7050618533249806;0.7117645443939596;;;;;
+7;StandardScaler>MLPClassifier;0.7537680321355396;0.8006449963758903;relu;(64,);;;
+8;StandardScaler>SVC;0.6359522942050622;0.5927913918393153;;;rbf;;
+9;StandardScaler>RandomForestClassifier;0.7569231502821991;0.7545978684541647;;;;entropy;100.0
+10;StandardScaler>GaussianNB;0.7055471656593973;0.7071259338243446;;;;;
+11;StandardScaler>StackingClassifier;0.8421140734090153;0.9905598631362027;;;;;

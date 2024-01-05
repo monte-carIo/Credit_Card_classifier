@@ -1,0 +1,6 @@
+Method;Macro F1
+LogisticRegression;0.72
+MLPClassifier;0.77
+SVC;0.78
+RandomForestClassifier;0.73
+GaussianNB;0.69
